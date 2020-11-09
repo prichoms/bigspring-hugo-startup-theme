@@ -1,5 +1,5 @@
 {{ "<!-- navigation -->" | safeHTML }}
-<header class="navigation">
+<header class="navigation" style="background-color: #dff2ff">
   <div class="container">
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
@@ -12,8 +12,8 @@
         <i class="ti-menu h3"></i>
       </button>
 
-      <div class="collapse navbar-collapse text-center" id="navigation">
-        <ul class="navbar-nav mx-auto">
+      <div class="collapse navbar-collapse" id="navigation">
+        <ul style="font-size: 1.5em" class="navbar-nav ml-auto">
           {{ range site.Menus.main }}
           {{ if .HasChildren }}
           <li class="nav-item dropdown">
@@ -33,12 +33,6 @@
           {{ end }}
           {{ end }}
         </ul>
-
-        {{ if site.Params.navigation_button.enable }}
-        {{ with site.Params.navigation_button }}
-        <a href="{{ .link | absURL }}" class="btn btn-sm btn-primary ml-3">{{ .label }}</a>
-        {{ end }}
-        {{ end }}
       </div>
     </nav>
   </div>

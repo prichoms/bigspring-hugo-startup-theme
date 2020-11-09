@@ -1,11 +1,11 @@
 ####################### Banner #########################
 banner:
-  title : "Let us solve your critical website <br> development challenges"
-  image : "images/banner-art.svg"
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque <br> totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus"
+  title : "Because Education Is Ubiquitous"
+  image : "images/small.svg"
+  content : "<br><br>Atom To Byte is a social service community dedicated to make computer education ubiquitous and to spread the awareness among the people about the need to know the computers. We focus mainly on the students who are not having adequate resources to study computers. We, as a team work for bringing small but significant changes in the society, so that the people could develop scientific thinking and approach to solve their day to day tasks. We believe in the upcoming and ever-growing technologies such as Artificial Intelligence,  Big Data and Cyber Security. This step may seem to be small, but is significant and with our dedicated team of volunteers, we can do wonders.<br><br>"
   button:
     enable : true
-    label : "Contact With Us"
+    label : "Contact Us"
     link : "#"
 
 ##################### Feature ##########################
@@ -91,19 +91,11 @@ service:
         label : "Check it out"
         link : "#"
         
-################### Screenshot ########################
-screenshot:
-  enable : true
-  title : "Experience the best <br> workflow with us"
-  image : "images/screenshot.svg"
-
-  
-
 ##################### Call to action #####################
 call_to_action:
   enable : true
   title : "Ready to get started?"
-  image : "images/cta.svg"
+  image : "images/last.jpeg"
   content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur."
   button:
     enable : true

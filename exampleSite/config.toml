@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "http://examplesite.org/"
-title = "Bigspring Hugo"
-theme = "bigspring"
+title = "Atom To Byte"
+theme = "atomtobyte"
 languageName = "En"
 languageCode = "en-us"
 # post pagination
